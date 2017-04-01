@@ -1,9 +1,12 @@
 public interface DequeFace <J> {
-    /* public void addFirst (J element);
-    public void addLast (J element);
+    public void addFirst (J enQVal);
+    public void addLast (J enQVal);
+    /*
     public J pollFirst ();
     public J pollLast ();
     public J peekFirst ();
-    public J peekLast ();*/
+    public J peekLast ();
+    public boolean isEmpty (); */
+
 }
 

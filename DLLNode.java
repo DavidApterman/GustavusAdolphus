@@ -50,28 +50,4 @@ public class DLLNode<T>
     // override inherited toString
     public String toString() { return _cargo.toString(); }
 
-
-    //main method for testing
-    public static void main( String[] args ) {
-
-	//Below is an exercise in creating a linked list...
-
-	/*********************
-	//Create a node
-	DLLNode<String> first = new DLLNode<String>( "cat", null );
-
-	//Create a new node after the first
-	first.setNext( new DLLNode<String>( "dog", null ) );
-
-	//Create a third node after the second
-	first.getNext().setNext( new DLLNode<String>( "cow", null ) );
-
-	DLLNode temp = first; 
-	while( temp != null ) {
-	    System.out.println( temp );
-	    temp = temp.getNext();
-	}
-	***********************/
-    }//end main
-
 }//end class DLLNode
