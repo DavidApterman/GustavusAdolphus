@@ -24,7 +24,37 @@ public class Deque <J> implements DequeFace <J> {
 	    _end = _end.getNext(); 
 	}
     } 
+    
+    public J removeFirst () {
+	if ( isEmpty() ) {
+	    System.out.println("nothing to remove");
+	    return null;
+	}
+	else {
+	    _front = _front.getNext();
+	    return _front.setPrev(null).getCargo();
+		}
+    }
 
+      public J removeLast () {
+	if ( isEmpty() ) {
+	    System.out.println("nothing to remove");
+	    return null;
+	}
+	else {
+	    _end = _end.getPrev();
+	    return _end.setNext(null).getCargo();
+		}
+    }
+
+    public J pollFirst() {
+	return _front.getCargo();
+    }
+
+    public J pollLast() {
+	return _end.getCargo();
+    }
+    
     public boolean isEmpty () {
 	return _front == null;
     }
@@ -47,9 +77,25 @@ public class Deque <J> implements DequeFace <J> {
 	a.addFirst ("Hermione");
 	System.out.println (a);
 
-	System.out.println ("adding to last...");
+	System.out.println ("adding to end...");
 	a.addLast ("Hogwarts");
 	a.addLast ("Magic");
-	System.out.println (a); 
+	System.out.println (a);
+
+	System.out.println("removing from front");
+	a.removeFirst();
+	a.removeFirst();
+	System.out.println(a);
+
+	System.out.println("removing from end");
+	a.removeLast();
+	System.out.println(a);
+
+	System.out.println("peeking the front");
+	System.out.println(a.pollFirst() );
+
+       	System.out.println("peeking the end");
+	System.out.println(a.pollLast() );
+	    
     }
 } 
