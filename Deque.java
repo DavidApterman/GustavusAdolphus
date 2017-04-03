@@ -82,12 +82,12 @@ public class Deque <J> implements DequeFace <J> {
 	a.addLast ("Magic");
 	System.out.println (a);
 
-	System.out.println("removing from front");
+	System.out.println("removing from front twice");
 	a.removeFirst();
 	a.removeFirst();
 	System.out.println(a);
 
-	System.out.println("removing from end");
+	System.out.println("removing from end once");
 	a.removeLast();
 	System.out.println(a);
 
