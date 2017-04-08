@@ -3,7 +3,7 @@
 ## Method Selection
 We chose the half of the methods that returned null instead of throwing an exception when they do not find the value. When looking at a real life queue, such as the line at Terry's, looking past the end of the line whos only nothing, not NoSuchElementException. 
 
-##Methods Used:
+## Methods Used:
 ```java
 addFirst (returns null if value not found)
 addLast  (returns null if value not found)
