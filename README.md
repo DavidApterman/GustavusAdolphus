@@ -3,15 +3,15 @@
 ## Method Selection
 We chose the half of the methods that returned null instead of throwing an exception when they do not find the value. When looking at a real life queue, such as the line at Terry's, looking past the end of the line whos only nothing, not NoSuchElementException. 
 
-##Methods Used:</br>
+##Methods Used:
 ```java
-addFirst (returns null/value)</br>
-addLast  (returns null/value)</br>
-removeFirst (returns null/value)</br>
-removeLast (returns null/value)</br>
-pollFirst (returns front cargo)</br>
-pollLast (returns end cargo)</br>
-isEmpty</br>
+addFirst (returns null if value not found)
+addLast  (returns null if value not found)
+removeFirst (returns null if value not found)
+removeLast (returns null if value not found)
+pollFirst (returns null if value not found)
+pollLast (returns null if value not found)
+isEmpty (returns boolean)
 ```
 
 ## Architecture Selection
