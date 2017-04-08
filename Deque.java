@@ -48,7 +48,8 @@ public class Deque <J> implements DequeFace <J> {
 	}
 	else {
 	    _end = _end.getPrev();
-	    return _end.setNext(null).getCargo():
+	    DLLNode val = _end.setNext(null):
+	    return val.getCargo();
 		}
     }
 
