@@ -4,7 +4,7 @@
  * 2017-04-04
  */
 
-public class DequeTest {
+public class DequeTester2 {
 	// replace with Deque implementation to be tested
 	private static final DequeFace<String> d = new Deque<>();
 
