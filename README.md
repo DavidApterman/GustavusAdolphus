@@ -5,13 +5,13 @@ We chose the half of the methods that returned null instead of throwing an excep
 
 ## Methods Used:
 ```java
-addFirst (returns null if value not found)
-addLast  (returns null if value not found)
+addFirst    (returns null if value not found)
+addLast     (returns null if value not found)
 removeFirst (returns null if value not found)
-removeLast (returns null if value not found)
-pollFirst (returns null if value not found)
-pollLast (returns null if value not found)
-isEmpty (returns boolean)
+removeLast  (returns null if value not found)
+pollFirst   (returns null if value not found)
+pollLast    (returns null if value not found)
+isEmpty     (returns boolean)
 ```
 
 ## Architecture Selection
