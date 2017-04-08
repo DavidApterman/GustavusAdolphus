@@ -1,15 +1,15 @@
 # GustavusAdolphus
 
 ## Method Selection
-We chose the half of the methods that returned null instead of throwing an exception when they do not find the value. When looking at a real life queue, such as the line at Terry's, looking past the end of the line whos only nothing, not NoSuchElementException.
-Methods Used:
-addFirst (returns null/value)
-addLast  (returns null/value)
-removeFirst (returns null/value)
-removeLast (returns null/value)
-pollFirst (returns front cargo)
-pollLast (returns end cargo)
-isEmpty
+We chose the half of the methods that returned null instead of throwing an exception when they do not find the value. When looking at a real life queue, such as the line at Terry's, looking past the end of the line whos only nothing, not NoSuchElementException. </br>
+Methods Used:</br>
+addFirst (returns null/value)</br>
+addLast  (returns null/value)</br>
+removeFirst (returns null/value)</br>
+removeLast (returns null/value)</br>
+pollFirst (returns front cargo)</br>
+pollLast (returns end cargo)</br>
+isEmpty</br>
 
 
 ## Architecture Selection
